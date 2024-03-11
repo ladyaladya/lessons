@@ -1,0 +1,55 @@
+@import url(reset.css);
+
+* {
+    color: rgb(1, 1, 1);
+}
+
+h2,
+h3 {
+    color: rgb(93, 137, 188);
+}
+
+mark,
+a {
+    color: red;
+}
+
+#google-search-reference {
+    color: rgba(24, 27, 198, 0.5);
+}
+
+.blue {
+    color: rgb(0, 87, 184);
+}
+
+.yellow {
+    color: rgb(255, 213, 0);
+}
+
+[class*="title"] {
+    color: rgb(100, 100, 100);
+}
+
+div[class*="container"] p {
+    color: rgb(16, 152, 173);
+}
+
+.sub-article__list>li {
+    color: rgba(64, 71, 142, 0.386);
+}
+
+.sub-article__list>li.blue {
+    color: rgb(0, 87, 184);
+}
+
+.sublist * {
+    color: greenyellow;
+}
+
+#google-search-reference~p {
+    color: greenyellow;
+}
+
+#google-search-reference+p {
+    color: blanchedalmond;
+}
