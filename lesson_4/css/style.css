@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@500&display=swap');
+
+@import url(fonts.css);
+
+@import url(reset.css);
+
+@import url(shared.css);
+
+body {
+    font-family: 'FixelDisplay', sans-serif;
+}
+
+.nav a {
+    text-decoration: underline;
+}
+
+.nav-list > li {
+    font-weight: 700;
+    list-style: decimal inside;
+}
+
+.text-block .title {
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-size: 36px;
+    line-height: 1.66666667; /* 60/36 */
+}
+
+.krovato {
+    color: #2b2929;
+    font-family: "ProximaNova", sans-serif;
+}
+
+.decoration-living-room .title,
+.how-to-choose-bed .title {
+    font-size: 40px;
+    line-height: 1.2; /* 48/40 */
+}
+
+.decoration-living-room .description,
+.decoration-types-list > li,
+.decoration-living-resume,
+.how-to-choose-bed .description {
+    line-height: 1.875; /* 30/16 */
+}
+
+.decoration-living-room .sub-title {
+    font-size: 20px;
+    line-height: 1.4; /* 28/20 */
+}

@@ -1,0 +1,135 @@
+.underline {
+    text-decoration: underline;
+}
+.line-through {
+    text-decoration: line-through;
+}
+.overline {
+    text-decoration: overline;
+}
+.black-decoration {
+    text-decoration-color: black;
+}
+.wavy-decoration {
+    text-decoration-style: wavy;
+}
+.large-decoration {
+    text-decoration-thickness: 3px;
+}
+
+.fz-14 {
+    font-size: 14px;
+}
+.fz-16 {
+    font-size: 16px;
+}
+.fz-18 {
+    font-size: 18px;
+}
+.fz-20 {
+    font-size: 20px;
+}
+.fz-22 {
+    font-size: 22px;
+}
+
+.italic {
+    font-style: italic;
+}
+.oblique {
+    font-style: oblique;
+}
+
+.fw-100 {
+    font-weight: 100;
+}
+.fw-200 {
+    font-weight: 200;
+}
+.fw-300 {
+    font-weight: 300;
+}
+.fw-400 {
+    font-weight: 400;
+}
+.fw-500 {
+    font-weight: 500;
+}
+.fw-600 {
+    font-weight: 600;
+}
+.fw-700 {
+    font-weight: 700;
+}
+.fw-800 {
+    font-weight: 800;
+}
+.fw-900 {
+    font-weight: 900;
+}
+
+.text-center {
+    text-align: center;
+}
+.text-right {
+    text-align: right;
+}
+.text-justify {
+    text-align: justify;
+}
+
+.red {
+    color: rgba(255, 0, 0);
+}
+.blue {
+    color: rgba(0, 0, 255, 0.543);
+}
+.orange {
+    color: rgba(255, 166, 0, 0.6);
+}
+.violet {
+    color: rgba(238, 130, 238, 0.603);
+}
+.green {
+    color: rgba(0, 128, 0, 0.564);
+}
+
+.text-shadow-small {
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+.text-shadow-large {
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
+}
+.text-shadow-blue {
+    text-shadow: 3px 3px 3px rgba(0, 0, 255, 0.5);
+}
+.text-shadow-embossed {
+    text-shadow: -2px -2px 2px rgba(0, 0, 0, 0.5);
+}
+.text-shadow-multiple  {
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5),
+             4px 4px 4px rgba(255, 0, 0, 0.5);
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+.lowercase {
+    text-transform: lowercase;
+}
+.capitalize {
+    text-transform: capitalize;
+}
+
+.letters-wide {
+    letter-spacing: 5px;
+}
+.letters-tiny {
+    letter-spacing: -1px;
+}
+.words-wide {
+    word-spacing: 20px;
+}
+.nowrap {
+    white-space: nowrap;
+}
