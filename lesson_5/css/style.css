@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+@import url(fonts.css);
+
+@import url(reset.css);
+
+body {
+    font-family: "ProximaNova", sans-serif;
+    color: #2b2929;
+}
+
+header, footer {
+    background-color: #efefef;
+}
+.nav-container {
+    text-align: center;
+    padding: 30px 0;
+}
+.nav-container a {
+    margin: 0 50px;
+    text-wrap: nowrap;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.living-room-section {
+    background-color: #F8F8F8;
+    padding: 75px 0 40px 0;
+}
+.living-room-section .container {
+    max-width: 1070px;
+    margin: 0 auto;
+}
+.living-room__title {
+    margin: 0 0 40px 0;
+    font-size: 40px;
+    line-height: 1.2; /* 48/40 */
+    text-align: center;
+    font-weight: 600;
+}
+.living-room__image {
+    margin: 0 0 40px 0;
+}
+.living-room__image img {
+    max-width: 1070px;
+}
+.living-room__main-description {
+    margin: 0 0 40px 0;
+    line-height: 30px;
+}
+.living-room__main-description p {
+    margin: 0 0 16px 0;
+}
+.living-room__product-types {
+    margin: 0 0 40px 0;
+}
+.living-room__product-types__title {
+    margin: 0 0 30px 0;
+    line-height: 1.4; /* 28/20 */
+    font-size: 20px;
+    font-weight: 600;
+}
+.living-room__product-types__list li {
+    margin: 0 0 20px 47px;
+    line-height: 1.875; /* 30/16 */
+}
+.living-room__notes {
+    line-height: 1.875; /* 30/16 */
+}
+
+.advantages-section {
+    background-color: #F8F8F8;
+    padding: 70px 0;
+    font-size: 0;
+}
+.advantages-section .container {
+    max-width: 1290px;
+    margin: 0 auto;
+    text-align: center;
+}
+.advantages__title {
+    margin: 0 0 40px 0;
+    font-size: 40px;
+    line-height: 1.2; /* 48/40 */
+    font-weight: 600;
+}
+.advantages__list {
+    margin: 0 -15px;
+}
+.advantages__list__block {
+    display: inline-block;
+    vertical-align: top;
+    min-width: 300px;
+    width: 25%;
+    font-size: 16px;
+    padding: 0 15px;
+}
+.advantages__list__block__image {
+    width: 170px;
+    margin: 0 auto;
+    padding: 0 0 20px 0;
+}
+.advantages__list__block__title {
+    font-size: 26px;
+    line-height: 1.30769231; /* 34/26 */
+    font-weight: 600;
+    padding: 0 0 20px 0;
+}
+.advantages__list__block__description {
+    line-height: 1.875; /* 30/16 */
+}
+
+.products-section {
+    background-color: #F3F4F4;
+}
+.products-section .container {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+.products-gallery {
+    padding: 100px 0;
+}
+.products-gallery__title {
+    font-family: "Roboto", sans-serif;
+    color: #000;
+    font-size: 50px;
+    font-style: normal;
+    text-align: center;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin: 0 0 60px 0;
+}
+.products-gallery__images {
+    font-size: 0;
+    margin: 0 -12px;
+}
+.products-gallery__images img {
+    width: 200px;
+    margin: 0 12px;
+}
