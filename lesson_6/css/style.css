@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+@import url(fonts.css);
+
+@import url(reset.css);
+
+body {
+    font-family: "ProximaNova", sans-serif;
+    color: #2b2929;
+}
+
+header, footer {
+    background-color: #efefef;
+}
+.nav-container {
+    text-align: center;
+    padding: 30px 0;
+}
+.nav-container a {
+    margin: 0 50px 0 0  ;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.living-room-section {
+    background-color: #F8F8F8;
+    padding: 75px 0 40px 0;
+}
+.living-room-section .container {
+    max-width: 1070px;
+    margin: 0 auto;
+}
+.living-room__title {
+    margin: 0 0 40px 0;
+    font-size: 40px;
+    line-height: 1.2; /* 48/40 */
+    text-align: center;
+    font-weight: 600;
+}
+.living-room__image {
+    margin: 0 0 40px 0;
+}
+.living-room__image img {
+    max-width: 1070px;
+    border-radius: 8px;
+}
+.living-room__main-description {
+    margin: 0 0 40px 0;
+    line-height: 30px;
+}
+.living-room__main-description p {
+    margin: 0 0 16px 0;
+}
+.living-room__product-types {
+    margin: 0 0 40px 0;
+}
+.living-room__product-types__title {
+    margin: 0 0 30px 0;
+    line-height: 1.4; /* 28/20 */
+    font-size: 20px;
+    font-weight: 600;
+}
+.living-room__product-types__list li {
+    min-height: 32px;
+    margin: 0 0 20px 0;
+    padding: 0 0 0 47px;
+    line-height: 1.875; /* 30/16 */
+    background: url("../images/check-mark.svg") 0 0 / 32px no-repeat;
+}
+.living-room__notes {
+    line-height: 1.875; /* 30/16 */
+}
+
+.shop-hero-section {
+    font-family: "Roboto", sans-serif;
+    padding: 0 190px 0 100px;
+    color: black;
+    background: 
+    url("/images/branch-big.png") no-repeat right bottom 176px / 173px,
+    url("/images/branch-small.png") no-repeat left bottom 141px / 94px #f3f4f4;
+}
+.shop-hero-section .container {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+.collections-block {
+    padding: 225px 0 60px 0;
+}
+.collections-block__column {
+    display: inline-block;
+    max-width: 686px;
+    padding: 74px 0 124px 0;
+    margin: 0 98px 0 0;
+    text-transform: capitalize;
+}
+.collections-block__column__title {
+    margin: 0 0 52px 0;
+    font-size: 74px;
+    font-weight: 300;
+}
+.collections-block__column__description {
+    margin: 0 0 66px 0;
+    font-size: 30px;
+    line-height: 1.83333333; /* 55/30 */
+}
+.collections-block__column__cta {
+    padding: 19px 26px;
+    font-size: 29px;
+    color: white;
+    background-color:#1E2832;
+}
+.collections-block__column__cta p {
+    padding: 0 0 0 38px;
+    background: url("/images/shopping-bag.svg") 0 0 / 30px no-repeat;
+}
+.collections-block__image {
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px 0px 0px 18px;
+    border-radius: 160px 0px;
+    border: 2px solid #B6B7B7;
+}
+.collections-block__image img {
+    max-width: 424px;
+    max-height: 542px;
+    margin: -20px 18px 20px -20px;
+    border-radius: 160px 0px;
+}
+
+.edu-section {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    background: #914CFF url("../images/vilet-bg.png") no-repeat 0 0 / cover;
+    font-size: 0;
+}
+.edu-section .content-container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.edu-text {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 121px 0;
+    margin: 0 133px 0 0;
+    max-width: 600px;
+    font-size: 16px;
+}
+.edu-text__title {
+    margin: 0 0 24px 0;
+    font-size: 40px;
+    line-height: 1.2; /* 48/40 */
+    color: #FFF;
+}
+.edu-text__description {
+    margin: 0 0 24px 0;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.6; /* 32/20 */
+    color: #FFF;
+}
+.edu-text__cta {
+    line-height: 1.5625; /* 25/16 */
+    padding: 12px 20px;
+    color: #0D1216;
+    background-color:#FFF;
+    border-radius: 8px;
+}
+.edu-text__cta p {
+    padding: 0 0 0 28px;
+    background: url("../images/hat.png") no-repeat 0 center / 20px;
+}
+.edu-image {
+    display: inline-block;
+    vertical-align: middle;
+}
+.edu-image img {
+    max-width: 515px;
+}
+
+.test-section {
+    min-height: 100vh;
+    background: #fff url("../images/carpaty.jpg") no-repeat 0 0 / cover fixed;
+    color: #fff;
+    font-size: 0;
+}
+.test-section .container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+.test-title {
+    margin: 0 0 100px 0;
+    font-size: 60px;
+    text-align: center;
+    font-weight: 700;
+    text-shadow:
+      1px 1px 0 #000000,
+      2px 2px 0 #000000,
+      3px 3px 0 #000000,
+      4px 4px 0 #000000,
+      5px 5px 0 #000000,
+      6px 6px 0 #000000,
+      7px 7px 0 #000000,
+      8px 8px 0 #000000
+}
+.test-images-raw .test-image-block {
+    display: inline-block;
+    border-radius: 32px;
+    width: 24%;
+    min-width: 270px;
+    height: 480px;
+    margin: 0 1% 1% 0;
+}
+.test-images-raw-1 {
+    background: url("../images/carpatia-1.jpg") no-repeat center 0 / cover;
+}
+.test-images-raw-2 {
+    background: url("../images/carpatia-2.jpg") no-repeat center 0 / cover;
+}
+.test-images-raw-3 {
+    background: url("../images/carpatia-3.jpg") no-repeat center 0 / cover;
+}
+.test-images-raw-4 {
+    background: url("../images/carpatia-4.jpg") no-repeat center 0 / cover;
+}
+.test-images-raw-5 {
+    background: url("../images/carpatia-5.jpg") no-repeat center 0 / cover;
+}
+.test-images-raw-6 {
+    background: url("../images/carpatia-6.jpg") no-repeat center 0 / cover;
+}
+.test-images-raw-7 {
+    background: url("../images/carpatia-7.jpg") no-repeat center 0 / cover;
+}
+.test-images-raw-8 {
+    background: url("../images/carpatia-8.jpg") no-repeat center 0 / cover;
+}
+.test-images-raw-9 {
+    background: url("../images/carpatia-9.jpg") no-repeat center 0 / cover;
+}
+.test-images-raw-10 {
+    background: url("../images/carpatia-10.jpg") no-repeat center 0 / cover;
+}
+.test-images-raw-11 {
+    background: url("../images/carpatia-11.jpg") no-repeat center 0 / cover;
+}
+.test-images-raw-12 {
+    background: url("../images/carpatia-12.jpg") no-repeat center 0 / cover;
+}
