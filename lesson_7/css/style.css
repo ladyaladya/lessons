@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@400;500;700&family=Orbitron:wght@500&display=swap');
+
+@import url(fonts.css);
+
+@import url(reset.css);
+
+body {
+    font-family: "ProximaNova", sans-serif;
+    color: #2b2929;
+}
+
+header, footer {
+    background-color: #efefef;
+}
+.nav-container {
+    text-align: center;
+    padding: 30px 0;
+}
+.nav-container a {
+    text-transform: uppercase;
+    color: #2b2929d1;
+}
+.nav-container a:hover {
+    text-decoration: underline;
+    color: #2b2929;
+}
+.nav-container a:active {
+    text-decoration: underline;
+    color: #000;
+}
+.nav-container a:not(:last-child) {
+    margin: 0 50px 0 0;
+}
+
+.living-room-section {
+    background-color: #F8F8F8;
+    padding: 75px 0 40px 0;
+}
+.living-room-section__container {
+    max-width: 1070px;
+    margin: 0 auto;
+}
+.living-room-section__container > *:not(:last-child) {
+    margin-bottom: 40px;
+}
+.living-room-section__container .living-room__title {
+    font-size: 40px;
+    line-height: 1.2; /* 48/40 */
+    text-align: center;
+    font-weight: 600;
+}
+.living-room-section__container .living-room__title > *:not(:last-child) {
+    margin-bottom: 16px;
+}
+.living-room__image img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+.living-room__main-description {
+    line-height: 30px;
+}
+.living-room__main-description > *:not(:last-child) {
+    margin-bottom: 16px;
+}
+.living-room__product-types > *:not(:last-child) {
+    margin-bottom: 30px;
+}
+.living-room__product-types__title {
+    line-height: 1.4; /* 28/20 */
+    font-size: 20px;
+    font-weight: 600;
+}
+.living-room__product-types__title > *:not(:last-child) {
+    margin-bottom: 16px;
+}
+.living-room__product-types__list > *:not(:last-child) {
+    margin-bottom: 30px;
+}
+.living-room__product-types__list li {
+    min-height: 32px;
+    padding: 0 0 0 47px;
+    line-height: 1.875; /* 30/16 */
+    background: url("../images/check-mark.svg") 0 0 / 32px no-repeat;
+}
+.living-room__product-types__list ul > *:not(:last-child) {
+    margin: 0 0 20px 0;
+}
+.living-room__notes {
+    line-height: 1.875; /* 30/16 */
+}
+.living-room__notes > *:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+.portfolio-section {
+    font-family: "Exo", sans-serif;
+    padding: 120px 0;
+    background-color: #070707;
+    color: #FFF;
+}
+.portfolio-container {
+    max-width: 1264px;
+    margin: 0 auto;
+    text-align: center;
+}
+.portfolio-container > *:not(:last-child) {
+    margin-bottom: 40px;
+}
+.portfolio-container > *:first-child {
+    margin-bottom: 60px;
+}
+.portfolio-content {
+    max-width: 992px;
+    margin: 0 auto;
+}
+.portfolio-content > *:not(:last-child) {
+    margin-bottom: 20px;
+}
+.portfolio__title {
+    display: inline-block;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.16666667; /* 70/60 */
+    text-transform: uppercase;
+}
+.portfolio__title ::after {
+    content: "";
+    display: block;
+    height: 1px;
+    margin: 20px 0 0 -50px;
+    background: linear-gradient(90deg, #F00 0%, #42FF00 48.9%, #2400FF 100%);
+    width: calc(100% + 100px);
+}
+.portfolio__description {
+    font-size: 18px;
+    line-height: 2.22222222; /* 40/18 */
+    letter-spacing: -0.36px;
+    text-transform: capitalize;
+}
+.portfolio-container .portfolio__tools {
+    font-family: "Orbitron", sans-serif;
+    margin: 0 0 60px 0;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.25; /* 25/20 */
+    text-transform: capitalize;
+}
+.portfolio__tools li {
+    display: inline-block;
+}
+.portfolio__tools li:not(:last-child){
+    margin: 0 60px 0 0;
+}
+.portfolio__tools li::after {
+    content: "";
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    margin: 0 0 0 60px;
+    background: url("../images/colored-circle.svg") no-repeat;
+}
+.portfolio__contacts {
+    line-height: 1;
+    letter-spacing: -0.4px;
+    font-size: 0;
+}
+.portfolio__contacts li {
+    font-size: 20px;
+    display: inline-block;
+}
+.portfolio__contacts li:not(:last-child) {
+    margin: 0 80px 0 0;
+}
+.portfolio__contacts li::before {
+    content: "";
+    display: inline-block;
+    vertical-align: top;
+    height: 20px;
+    width: 20px;
+    margin: 0 20px 0 0;
+}
+.portfolio__contacts .adress {
+    text-transform: capitalize;
+}
+.portfolio__contacts .email {
+    height: 15px;
+    text-transform: lowercase;
+}
+.portfolio__contacts .tel::before {
+    background: url("../images/call.svg") no-repeat;
+}
+.portfolio__contacts .adress::before {
+    background: url("../images/location.svg") no-repeat;
+}
+.portfolio__contacts .email::before {
+    background: url("../images/email.svg") no-repeat;
+    vertical-align: text-bottom;
+}
+.portfolio__contacts li a:hover {
+    text-decoration: underline;
+    color: #6F00A9;
+}
+.portfolio__contacts li a:active {
+    text-decoration: underline;
+    color: #550281;
+}
