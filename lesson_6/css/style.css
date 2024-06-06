@@ -78,8 +78,8 @@ header, footer {
     padding: 0 190px 0 100px;
     color: black;
     background: 
-    url("/images/branch-big.png") no-repeat right bottom 176px / 173px,
-    url("/images/branch-small.png") no-repeat left bottom 141px / 94px #f3f4f4;
+    url("../images/branch-big.png") no-repeat right bottom 176px / 173px,
+    url("../images/branch-small.png") no-repeat left bottom 141px / 94px #f3f4f4;
 }
 .shop-hero-section .container {
     max-width: 1320px;
@@ -87,6 +87,7 @@ header, footer {
 }
 .collections-block {
     padding: 225px 0 60px 0;
+    font-size: 0;
 }
 .collections-block__column {
     display: inline-block;
@@ -113,7 +114,7 @@ header, footer {
 }
 .collections-block__column__cta p {
     padding: 0 0 0 38px;
-    background: url("/images/shopping-bag.svg") 0 0 / 30px no-repeat;
+    background: url("../images/shopping-bag.svg") 0 0 / 30px no-repeat;
 }
 .collections-block__image {
     display: inline-block;
