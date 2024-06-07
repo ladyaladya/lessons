@@ -171,7 +171,7 @@ header, footer {
 .portfolio__contacts li:not(:last-child) {
     margin: 0 80px 0 0;
 }
-.portfolio__contacts li::before {
+.portfolio__contacts li a::before {
     content: "";
     display: inline-block;
     vertical-align: top;
@@ -186,13 +186,13 @@ header, footer {
     height: 15px;
     text-transform: lowercase;
 }
-.portfolio__contacts .tel::before {
+.portfolio__contacts .tel a::before {
     background: url("../images/call.svg") no-repeat;
 }
-.portfolio__contacts .adress::before {
+.portfolio__contacts .adress a::before {
     background: url("../images/location.svg") no-repeat;
 }
-.portfolio__contacts .email::before {
+.portfolio__contacts .email a::before {
     background: url("../images/email.svg") no-repeat;
     vertical-align: text-bottom;
 }
