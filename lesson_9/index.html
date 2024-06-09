@@ -11,154 +11,162 @@
 
         <div class="container">
 
-            <!-- Переглянувши макет, мені здається що в header, окрім кнопки з Каталогом, узагалі не доцільно створювати якісь БЕМ блоки, адже вони достатньо унікальні і особливо не повторюються. Проте у коді я намагався зробити щось подібне ще для списку, просто щоб потренуватись.  -->
-
             <header class="header">
                 
-                <div class="contacts">
-                    <ul class="links-list">
-                        <li>
-                            <a href="#">Про нас</a>
+                <div class="header__top top-header">
+                    <ul class="top-header__menu menu-top-header-list">
+                        <li class="menu-top-header-list__item">
+                            <a class="menu-top-header-list__link" href="#">Про нас</a>
                         </li>
-                        <li>
-                            <a href="#">Оплата</a>
+                        <li class="menu-top-header-list__item">
+                            <a class="menu-top-header-list__link" href="#">Оплата</a>
                         </li>
-                        <li>
-                            <a href="#">Доставка та збірка</a>
+                        <li class="menu-top-header-list__item">
+                            <a class="menu-top-header-list__link" href="#">Доставка та збірка</a>
                         </li>
-                        <li>
-                            <a href="#">Відгуки</a>
+                        <li class="menu-top-header-list__item">
+                            <a class="menu-top-header-list__link" href="#">Відгуки</a>
                         </li>
-                        <li>
-                            <a href="#">Блог</a>
+                        <li class="menu-top-header-list__item">
+                            <a class="menu-top-header-list__link" href="#">Блог</a>
                         </li>
-                        <li>
-                            <a href="#">Контакти</a>
+                        <li class="menu-top-header-list__item">
+                            <a class="menu-top-header-list__link" href="#">Контакти</a>
                         </li>
                     </ul>
-                    <div class="social-media">
-                        <p class="social-media__text">
-                            Допомога і консультація:
-                        </p>
-                        <ul class="social-media__links-list icons-link-list">
-                            <li class="icons-link-list__item">
-                                <a class="icons-link-list__link" href="#" target="_blank">
-                                    <img class="icons-link-list__icon" src="images/icons/whatsapp.svg" alt="Whatsapp">
-                                </a>
-                            </li>
-                            <li class="icons-link-list__item">
-                                <a class="icons-link-list__link" href="#" target="_blank">
-                                    <img class="icons-link-list__icon" src="images/icons/telegram.svg" alt="Telegram">
-                                </a>
-                            </li>
-                            <li class="icons-link-list__item">
-                                <a class="icons-link-list__link" href="#" target="_blank">
-                                    <img class="icons-link-list__icon" src="images/icons/viber.svg" alt="Viber">
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="lang-bar">
-                        <span class="lang-bar__lang">
-                            UA
-                        </span>
-                        <img class="lang-bar__dropdown-icon" src="images/icons/dropdown-arrow.svg" alt="Обрати мову">
+                    <div class="top-header__actions actions-top-header">
+                        <div class="actions-top-header__social social-actions-top-header">
+                            <p class="social-actions-top-header__label">
+                                Допомога і консультація:
+                            </p>
+                            <ul class="social-actions-top-header__links-list">
+                                <li class="social-actions-top-header__item">
+                                    <a class="social-actions-top-header__link" href="#" target="_blank">
+                                        <img class="social-actions-top-header__icon" src="images/icons/whatsapp.svg" alt="Whatsapp">
+                                    </a>
+                                </li>
+                                <li class="social-actions-top-header__item">
+                                    <a class="social-actions-top-header__link" href="#" target="_blank">
+                                        <img class="social-actions-top-header__icon" src="images/icons/telegram.svg" alt="Telegram">
+                                    </a>
+                                </li>
+                                <li class="social-actions-top-header__item">
+                                    <a class="social-actions-top-header__link" href="#" target="_blank">
+                                        <img class="social-actions-top-header__icon" src="images/icons/viber.svg" alt="Viber">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="top-header__langs langs-top-header">
+                            <span class="langs-top-header__current-lang">
+                                UA
+                            </span>
+                            <img class="langs-top-header__icon" src="images/icons/dropdown-arrow.svg" alt="Обрати мову">
+                            <ul class="langs-top-header__hidden-list hidden-list-langs-top-header">
+                                <li class="hidden-list-langs-top-header__item">
+                                    EN
+                                </li>
+                                <li class="hidden-list-langs-top-header__item">
+                                    DE
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-                <div class="search">
-                    <img class="header-logo" src="images/icons/logo-header.svg" alt="Логотип Кравато">
-                    <div class="cta-block">
+
+                <div class="header__body body-header">
+                    <img class="body-header__logo" src="images/icons/logo-header.svg" alt="Логотип Кравато">
+                    <div class="body-header__cta cta-block">
                         <img class="cta-block__icon" src="images/icons/menu-catalog.svg" alt="Каталог">
                         <span class="cta-block__text">
                             Каталог
                         </span>
                     </div>
-                    <input class="header-search" type="search" title="Пошук товарів">
-                    <div class="tel-list">
-                        <img class="tel-main-icon" src="images/icons/tel.svg" alt="Телефон">
-                        <span class="working-shedule">
+                    <input class="body-header__search" type="search" title="Пошук товарів">
+                    <div class="body-header__contacts contacts-body-header">
+                        <img class="contacts-body-header__icon" src="images/icons/tel.svg" alt="Телефон">
+                        <span class="contacts-body-header__working-shedule">
                             Щодня з 9:00 до 18:00
                         </span>
-                        <span class="tel">
+                        <span class="contacts-body-header__current-tel">
                             067 929-45-45
                         </span>
-                        <img class="dropdown-icon" src="images/icons/dropdown-arrow.svg" alt="Обрати Телефон">
-                        <ul class="icons-link-list">
-                            <li class="icons-link-list__item">
-                                <a class="icons-link-list__link" href="#">
-                                    <img class="icons-link-list__icon" src="images/icons/heart-in-circle.svg" alt="Обране">
+                        <img class="contacts-body-header__dropdown-icon" src="images/icons/dropdown-arrow.svg" alt="Обрати Телефон">
+                    </div>
+                    <div class="body-header__actions actions-body-header">
+                        <ul class="actions-body-header__icons-list icons-list-body-header">
+                            <li class="icons-list-body-header__item">
+                                <a class="icons-list-body-header__link" href="#">
+                                    <img class="icons-list-body-header__icon" src="images/icons/heart-in-circle.svg" alt="Обране">
                                 </a>
                             </li>
-                            <li class="icons-link-list__item">
-                                <a class="icons-link-list__link" href="#">
-                                    <img class="icons-link-list__icon" src="images/icons/bag-in-circle.svg" alt="Кошик">
+                            <li class="icons-list-body-header__item">
+                                <a class="icons-list-body-header__link" href="#">
+                                    <img class="icons-list-body-header__icon" src="images/icons/bag-in-circle.svg" alt="Кошик">
                                 </a>
                             </li>
                         </ul>
                     </div>
                 </div>
-                <div class="links-raw">
-                    <div class="special-links">
-                        <ul class="links-list">
-                            <li>
-                                <a href="#">
-                                    <img src="images/icons/star.svg" alt="Акції">
-                                    <span>Акції</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <img src="images/icons/sale.svg" alt="Розпродаж">
-                                    <span>Розпродаж</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <img src="images/icons/credit.svg" alt="Купити в кредит">
-                                    <span>Купити в кредит</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="categories-links">
-                        <ul class="categories-list">
-                            <li>
-                                <a href="#">
-                                    Дитяча
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    Кухня
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    Ванна
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    Спальня
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    Передпокій
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    Вітальня
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    Офіс
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
+
+                <div class="header__bottom bottom-header">
+                    <ul class="bottom-header__special-list special-list-header">
+                        <li class="special-list-header__item">
+                            <a class="special-list-header__link" href="#">
+                                <img class="special-list-header__icon" src="images/icons/star.svg" alt="Акції">
+                                <span class="special-list-header__label">Акції</span>
+                            </a>
+                        </li>
+                        <li class="special-list-header__item">
+                            <a class="special-list-header__link" href="#">
+                                <img class="special-list-header__icon" src="images/icons/sale.svg" alt="Розпродаж">
+                                <span class="special-list-header__label">Розпродаж</span>
+                            </a>
+                        </li>
+                        <li class="special-list-header__item">
+                            <a class="special-list-header__link" href="#">
+                                <img class="special-list-header__icon" src="images/icons/credit.svg" alt="Купити в кредит">
+                                <span class="special-list-header__label">Купити в кредит</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="bottom-header__categories-list categories-list-header">
+                        <li class="categories-list-header__item">
+                            <a class="categories-list-header__link" href="#">
+                                Дитяча
+                            </a>
+                        </li>
+                        <li class="categories-list-header__item">
+                            <a class="categories-list-header__link" href="#">
+                                Кухня
+                            </a>
+                        </li>
+                        <li class="categories-list-header__item">
+                            <a class="categories-list-header__link" href="#">
+                                Ванна
+                            </a>
+                        </li>
+                        <li class="categories-list-header__item">
+                            <a class="categories-list-header__link" href="#">
+                                Спальня
+                            </a>
+                        </li>
+                        <li class="categories-list-header__item">
+                            <a class="categories-list-header__link" href="#">
+                                Передпокій
+                            </a>
+                        </li>
+                        <li class="categories-list-header__item">
+                            <a class="categories-list-header__link" href="#">
+                                Вітальня
+                            </a>
+                        </li>
+                        <li class="categories-list-header__item">
+                            <a class="categories-list-header__link" href="#">
+                                Офіс
+                            </a>
+                        </li>
+                    </ul>
         
                 </div>
             </header>
