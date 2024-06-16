@@ -7,8 +7,8 @@ if (document.readyState !== 'loading') {
 }
 
 function bindHeaderDialogEvents() {
-    const headerCatalogButton = document.querySelector('[header-catalog-button]');
-    const headerCatalogDialog = document.querySelector('[header-catalog-dialog]');
+    const headerCatalogButton = document.querySelector('[data-header-catalog-button]');
+    const headerCatalogDialog = document.querySelector('[data-header-catalog-dialog]');
     if (!headerCatalogButton || !headerCatalogDialog) {
         return;
     }
@@ -29,7 +29,7 @@ function bindHeaderDialogEvents() {
     }
     });
 
-    const dialogCatalogItems = headerCatalogDialog.querySelectorAll('[item-dialog-catalog]');
+    const dialogCatalogItems = headerCatalogDialog.querySelectorAll('[data-item-dialog-catalog]');
     if (dialogCatalogItems.length) {
         dialogCatalogItems.forEach((item) => {
             item.addEventListener('mouseenter', function() {
