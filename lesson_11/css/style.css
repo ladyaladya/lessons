@@ -147,13 +147,13 @@ body {
     transform: scale(0.5);
 }
 .block-2d--scale:nth-child(2):hover:after {
-    transform: scale(110%);
+    transform: scale(1.1);
 }
 .block-2d--scale:nth-child(3):hover:after {
-    transform: scale(50%, 25%);
+    transform: scale(0.5, 0.25);
 }
 .block-2d--scale:nth-child(4):hover:after {
-    transform: scale(50%, 1);
+    transform: scale(0.5, 1);
 }
 .block-2d--rotate:nth-child(1):hover:after {
     transform: rotate(45deg);
@@ -183,13 +183,13 @@ body {
     transform: translate(-20px, -40px) scale(0.5) rotate(45deg) skew(-15deg);
 }
 .block-2d--multiple:nth-child(2):hover:after {
-    transform: translate(10px, 20px) scale(110%) rotate(360deg) skew(0, 15deg);
+    transform: translate(10px, 20px) scale(1.1) rotate(360deg) skew(0, 15deg);
 }
 .block-2d--multiple:nth-child(3):hover:after {
-    transform: translate(50%, 25%) scale(50%, 25%) rotate(-10deg) skew(15deg, 15deg);
+    transform: translate(50%, 25%) scale(0.5, 0.25) rotate(-10deg) skew(15deg, 15deg);
 }
 .block-2d--multiple:nth-child(4):hover:after {
-    transform: translate(0, -100%) scale(50%, 1) rotate(135deg) skew(45deg, -45deg);
+    transform: translate(0, -100%) scale(0.5, 1) rotate(135deg) skew(45deg, -45deg);
 }
 .block-2d--origin:nth-child(1):hover:after {
     transform-origin: 0 0;
@@ -229,13 +229,13 @@ body {
     transform: scale3d(0.5, 0.5, 1);
 }
 .block-3d--scale:nth-child(2):hover:after {
-    transform: scale3d(110%, 2, 1);
+    transform: scale3d(1.1, 2, 1);
 }
 .block-3d--scale:nth-child(3):hover:after {
-    transform: scale3d(50%, 25%, 2);
+    transform: scale3d(0.5, 0.25, 2);
 }
 .block-3d--scale:nth-child(4):hover:after {
-    transform: scale3d(50%, 1, 0.5);
+    transform: scale3d(0.5, 1, 0.5);
 }
 .block-3d--rotate:nth-child(1):hover:after {
     transform: rotate3d(1, 1, 1, 45deg);
